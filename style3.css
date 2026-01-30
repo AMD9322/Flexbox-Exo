@@ -1,0 +1,43 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  padding: 20px;
+}
+
+/* lignes */
+.row {
+  border: 2px solid purple;
+  height: 100px;
+  margin-bottom: 20px;
+
+  display: flex;
+  align-items: center;
+}
+
+/* blocs hello */
+.box {
+  background-color: #45ad9c;
+  color: white;
+  padding: 15px 25px;
+}
+
+/* ligne 1 : milieu gauche / milieu droit */
+.row1 {
+  justify-content: space-between;
+  padding: 0 150px;
+}
+
+/* ligne 2 : gauche / droite */
+.row2 {
+  justify-content: space-between;
+  padding: 0 20px;
+}
+
+/* ligne 3 : 4 éléments répartis */
+.row3 {
+  justify-content: space-around;
+}
