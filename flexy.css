@@ -1,0 +1,63 @@
+:root {
+  --blue-amandine: rgb(7, 7, 241);
+}
+/* Reset basique */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: var(--blue-amandine);
+}
+margin: 0;
+
+/* Boîtes violettes */
+.box {
+  background-color: purple;
+  color: white;
+  padding: 10px 20px;
+  border: 2px solid white;
+}
+
+/* Bande verte */
+.green {
+  background-color: green;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Bande jaune */
+.yellow {
+  background-color: orange;
+  height: 80px;
+  display: flex;
+  justify-content: flex-end;
+  gap: 20px;
+  align-items: center;
+  padding-right: 20px;
+}
+
+/* Zone bleue */
+.blue {
+  background-color: var(--blue-amandine);
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Bloc blanc */
+.white {
+  background-color: rgb(255, 255, 255);
+  width: 300px;
+  height: 200px;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+
+/* Petites boîtes */
+.small {
+  padding: 5px 10px;
+  font-size: 14px;
+}
