@@ -7,11 +7,10 @@ body {
   font-family: Arial, sans-serif;
   background-color: var(--blue-amandine);
 }
-margin: 0;
 
 /* Boîtes violettes */
 .box {
-  background-color: purple;
+  background-color: rgb(66, 15, 66);
   color: white;
   padding: 10px 20px;
   border: 2px solid white;

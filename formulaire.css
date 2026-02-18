@@ -1,0 +1,73 @@
+body {
+  background: #468fca;
+  font-family: Arial, sans-serif;
+}
+h2 {
+  color: rgb(64, 103, 134);
+}
+
+label {
+  color: rgb(255, 255, 255);
+}
+/* Conteneur du formulaire */
+form {
+  width: 350px;
+  margin: 50px auto;
+  background: #1f7ed8;
+  padding: 25px;
+  border-radius: 6px;
+  color: white;
+}
+
+/* Titre */
+h2 {
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+/* Labels */
+label {
+  font-size: 14px;
+}
+
+/* Champs */
+input {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  margin-bottom: 15px;
+  border: none;
+  border-radius: 4px;
+}
+
+/* Radio buttons */
+input[type="radio"] {
+  width: auto;
+  margin-right: 5px;
+}
+
+/* Checkbox */
+input[type="checkbox"] {
+  width: auto;
+}
+
+/* Bouton */
+button {
+  width: 100%;
+  padding: 12px;
+  background: #0d4f8b;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #083b69;
+}
+
+/* Texte infos */
+p {
+  font-size: 12px;
+}
